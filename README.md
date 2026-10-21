@@ -16,7 +16,7 @@ CAGR and IPO allotment chance, as plain JavaScript functions.
 npm install github:gainlyfinance/indian-finance-formulas
 ```
 
-Or copy `src/index.js` into your project. It is one file.
+Or copy `index.js` into your project. It is one file.
 
 ## Use
 
@@ -56,7 +56,7 @@ for example with `Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR
 | `stockAverage([{ shares, price }, …])` | `average`, `shares`, `cost` |
 | `ipoAllotmentChance({ timesSubscribed, applications?, lotsPerApplication? })` | chance of at least one lot, 0 to 1 |
 
-Each function has a short note in `src/index.js` on the method it uses.
+Each function has a short note in `index.js` on the method it uses.
 
 ## Try them without code
 

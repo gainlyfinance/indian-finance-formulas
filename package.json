@@ -3,13 +3,28 @@
   "version": "1.0.0",
   "description": "SIP, EMI, FD, RD, PPF, inflation and other Indian personal finance formulas, as used by the free calculators on gainly.in. No dependencies.",
   "type": "module",
-  "main": "src/index.js",
-  "exports": "./src/index.js",
-  "files": ["src"],
+  "main": "index.js",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "node --test"
+    "test": "node --test index.test.js"
   },
-  "keywords": ["india", "sip", "emi", "fd", "rd", "ppf", "finance", "calculator", "mutual-fund", "loan", "inflation", "inr"],
+  "keywords": [
+    "india",
+    "sip",
+    "emi",
+    "fd",
+    "rd",
+    "ppf",
+    "finance",
+    "calculator",
+    "mutual-fund",
+    "loan",
+    "inflation",
+    "inr"
+  ],
   "homepage": "https://gainly.in",
   "repository": {
     "type": "git",
